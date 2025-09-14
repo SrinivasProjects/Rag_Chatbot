@@ -2,6 +2,13 @@
 
 A cutting-edge Retrieval-Augmented Generation (RAG) chatbot that lets you upload PDF documents and ask natural language questions, delivering instant, context-aware answers. Built with FastAPI and a stunning HTML/CSS/JavaScript frontend, this is one of the best AI applications for document understanding, productivity, and knowledge management across
 
+![RAG Chatbot Screenshot](static/photo.png)
+
+
+<video src="static/video.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
+
 ## How This Is Useful
 
 - **Document Understanding:** Instantly ask questions about any uploaded PDF and get accurate, context-aware answers.
