@@ -5,7 +5,7 @@ A cutting-edge Retrieval-Augmented Generation (RAG) chatbot that lets you upload
 ![RAG Chatbot Screenshot](photo.png)
 
 
-[Download and watch the video](video.mp4)
+[Watch video](video.mp4)
 
 ## How This Is Useful
 
