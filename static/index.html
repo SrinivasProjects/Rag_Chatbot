@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="glass-card">
+        <div class="center-icon">
+            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2728.svg" alt="AI" class="ai-icon" />
+            <h1>Asking with AI Suggestions</h1>
+        </div>
+        <section class="upload-section">
+            <form id="uploadForm">
+                <label for="pdfFile" class="file-label">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <input type="file" id="pdfFile" name="file" accept="application/pdf" required />
+                </label>
+                <button type="button" id="uploadBtn" class="icon-btn"><i class="fa-solid fa-cloud-upload-alt"></i> Upload PDF</button>
+            </form>
+        </section>
+        <section class="suggestion-section">
+            <div class="suggestions">
+                <button class="chip" onclick="document.getElementById('questionInput').value='Summarize key points'">Summarize key points</button>
+                <button class="chip" onclick="document.getElementById('questionInput').value='Who is the main character?'">Who is the main character?</button>
+                <button class="chip" onclick="document.getElementById('questionInput').value='List important events'">List important events</button>
+            </div>
+        </section>
+        <section class="chat-section">
+            <div id="chatHistory" class="chat-history"></div>
+        </section>
+        <section class="ask-section">
+            <form id="askForm">
+                <input type="text" id="questionInput" name="question" placeholder="Ask, write or search for anything..." required />
+                <button type="submit" class="icon-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
