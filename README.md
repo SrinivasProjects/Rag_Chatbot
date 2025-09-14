@@ -5,9 +5,7 @@ A cutting-edge Retrieval-Augmented Generation (RAG) chatbot that lets you upload
 ![RAG Chatbot Screenshot](photo.png)
 
 
-<video src="video.mp4" controls width="600">
-  Your browser does not support the video tag.
-</video>
+[Download and watch the video](video.mp4)
 
 ## How This Is Useful
 
